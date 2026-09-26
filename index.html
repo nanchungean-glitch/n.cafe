@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N.cafe</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&family=Hanuman:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- style-font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+        integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+<!-- ============header============ -->
+    <div class="header">
+        <div class="logo">
+            <a href="#home">
+                <p>N.Café</p>
+            </a>     
+        </div>
+
+        <div class="navbar">
+            <div>
+                <nav>
+                    <a id="home" href="#home"> HOME </a>
+                    <a id="menu" href="#menu-section"> MENU </a>
+                    <a id="about" href="#about-section"> ABOUT </a>
+                    <a id="contact" href="#contact-section"> CONTACT </a>
+                </nav>
+            </div>
+            
+            <div 
+                aria-label="Open menu" aria-expanded="false"
+                class="bar">
+                 <i class="fa-solid fa-bars"></i>
+            </div>
+        </div> 
+    </div>
+<!-- ============header-mobile============ -->
+    <div id="header-mobile" class="header-mobile" aria-hidden="true">
+            <section>
+                <nav class="nav-mobile">
+                    <a href="#home"> HOME </a>
+                    <a href="#menu-section"> MENU </a>
+                    <a href="#about-section"> ABOUT </a>
+                    <a href="#contact-section"> CONTACT </a>
+                </nav>
+
+            </section>
+    </div>
+<!-- ==========Hero-section=========== -->
+    <div class="hero">
+        <div class="description">
+            <div class="des">   
+                <h1> Make your day great with our special coffee! </h1>
+                <p> Welcome to our coffee paradise, where every bean tells a story and every cup sparks joy. </p>
+                <div class="btn-order">
+                    <a href=""> Order Now </a>
+                </div>
+            </div>    
+        </div>
+    </div>
+<!-- =============Menu=============== -->
+    <div class="menu" id="menu-section">
+        <div class="menu-title">
+            <h1>Signature Drinks</h1>
+        </div>
+
+        <div class="drink">
+            <img src="./image/ice-latte.jpg" alt="Photo">
+            <h2> Ice Latte </h2>
+            <span> $ 2.75 </span>
+        </div>
+
+        <div class="drink">
+            <img src="./image/red.png" alt="Photo">
+            <h2> Red Milk Tea </h2>
+            <span> $ 2.75 </span>
+        </div>
+
+        <div class="drink">
+            <img src="./image/str.png" alt="Photo">
+            <h2> Strawberry Matcha </h2>
+            <span> $ 2.50 </span>
+        </div>
+
+        <div class="drink">
+            <img src="./image/green-tea.jpg" alt="Photo">
+            <h2> Green Tea </h2>
+            <span> $ 2.50 </span>
+        </div>
+
+        <div class="drink">
+            <img src="./image/brown.jpg" alt="Photo">
+            <h2> Brown Sugar </h2>
+            <span> $ 2.65 </span>
+        </div> 
+
+        <div class="drink">
+            <img src="./image/cup.png" alt="Photo">
+            <h2> Cappuccino </h2>
+            <span> $ 3.75 </span>
+        </div>
+
+        <div class="menu-ending">
+            <h1>Order Your Drink Now</h1>
+        </div>
+    </div>
+<!-- =============Menu-banner============== -->
+    <div class="menu-banner">
+        <div class="menu-con">
+            <div class="menu-text">
+                <h2>Discover Your Favorite Drink</h2>
+                <p>Try Our Signature Drinks Today</p>
+            </div>
+
+            <div class="menu-btn">
+                <a href=""> Our Menu </a>
+            </div>
+        </div>
+    </div>
+<!-- ============About============= -->
+    <div class="about" id="about-section">
+        <div class="abt-con">
+            <div class="abt-title">
+                <h1>Welcome to N.Café</h1>
+            </div>
+            <div class="abt-text">
+                <p>
+                    N.Café is a unique café experience in Battambang inspired by the
+                    simplicity and peaceful life. Located in Chrab veab, we offer a
+                    peaceful escape from the busy city — a place where you can enjoy quality
+                    coffee and refreshing drinks.
+                </p>
+                <br>
+                <p>
+                    As one of the peaceful café in the city, N.Café blends greenery,
+                    open space, and a welcoming atmosphere to create more than just a
+                    coffee stop — it's a place to unwind, connect, and enjoy the moment.
+                </p>
+                <br>
+                <p>
+                    Whether you're meeting friends, working remotely, or just taking a break,
+                    N.Café is your go-to destination for comfort, flavor, and calm.
+                </p>
+            </div>
+        </div>
+
+        <div class="photo">
+            <div class="abt-img">
+                <img src="./image/goat.png" alt="">
+            </div> 
+        </div>
+    </div>
+<!-- ============Contact============= -->
+    <div class="Visit" id="contact-section">
+        <div class="visit-title">
+            <h1>
+                Visit Us
+            </h1>
+        </div>
+        <div class="visit-con">
+            <div class="card">
+                <i class="fa-solid fa-location-dot"></i>
+                <h3>Location</h3>
+                <p> 
+                    123 Main Street
+                    <br>
+                    Battambang, Cambodia
+                </p>
+            </div>
+            
+            <div class="card">
+                <i class="fa-regular fa-clock"></i>
+                <h3>Opening Hour</h3>
+                <p> 
+                    Mon - Fri: 7:00 AM - 8:00 PM
+                    <br>
+                    Sat - Sun: 8:00 AM - 9:00 PM
+                </p>
+            </div>
+            
+            <div class="card">
+                <i class="fa-solid fa-phone"></i>
+                <h3>Contact</h3>
+                <p class="email"> 
+                    nanchungean@gmail.com
+                </p>
+                <p class="tel">
+                    Tel: 093973387
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="location">
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d242.88955724852673!2d103.22764967799824!3d13.084419799578297!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2skh!4v1790257642676!5m2!1sen!2skh"
+                allowfullscreen
+                loading="lazy"
+                referrerpolicy="strict-origin-when-cross-origin">
+            </iframe>
+        </div>
+    </div>
+<!-- ============footer============ -->
+    <footer class="footer-bar">
+        <p>Copyright &copy; <span id="year">2026</span> - N.Café</p>
+    </footer>
+</body>
+</html>
